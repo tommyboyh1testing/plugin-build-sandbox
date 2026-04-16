@@ -1,0 +1,8 @@
+{
+  "name": "xlayer-gas-tracker",
+  "version": "0.1.0",
+  "description": "X Layer gas monitoring utility",
+  "type": "module",
+  "main": "index.ts",
+  "license": "MIT"
+}

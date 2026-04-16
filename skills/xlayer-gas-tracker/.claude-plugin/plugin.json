@@ -1,0 +1,13 @@
+{
+  "name": "xlayer-gas-tracker",
+  "version": "0.1.0",
+  "description": "OKX X Layer gas-price monitor: current tiers, fee-history percentiles, latest block height.",
+  "author": {
+    "name": "tommyboyh1testing",
+    "github": "tommyboyh1testing"
+  },
+  "license": "MIT",
+  "category": "chain-utility",
+  "tags": ["xlayer", "okx", "gas", "rpc", "chain-196"],
+  "entry": "index.ts"
+}
