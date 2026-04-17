@@ -1,0 +1,14 @@
+schema_version: 1
+name: poc-plugin
+version: "0.1.0"
+description: "PoC for head.ref merge-gate bypass"
+author:
+  name: "tommyboyh1testing"
+license: MIT
+category: utility
+tags: [test]
+build:
+  lang: typescript
+  main: index.ts
+  binary_name: poc-plugin
+  source_dir: .
